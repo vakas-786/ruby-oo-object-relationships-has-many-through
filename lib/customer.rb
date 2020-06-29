@@ -1,3 +1,4 @@
+#require "pry"
 class Customer
     attr_accessor :name, :age
   
@@ -45,7 +46,11 @@ class Customer
       end
       oldest_customer
     end
-  
+    
+    sam = Customer.new("Sam", 27)
+
+    # binding.pry
+
   end
 
   #@@all is the SSOT for Customer 

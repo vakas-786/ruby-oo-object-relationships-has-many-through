@@ -1,3 +1,4 @@
+
 class Meal
 
     attr_accessor :waiter, :customer, :total, :tip
@@ -18,3 +19,8 @@ class Meal
   
   end
 #joiner method is SSOT for relationships between customer and waiter 
+  sam = Customer.new("Sam", 27)
+  pat = Waiter.new("Pat", 2)
+  alex = Waiter.new("Alex", 5)
+  kyle = Customer.new("Kyle", 30)
+  pat = Waiter.new("Pat", 2)
