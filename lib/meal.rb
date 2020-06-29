@@ -17,3 +17,4 @@ class Meal
     end
   
   end
+#joiner method is SSOT for relationships between customer and waiter 

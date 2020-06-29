@@ -47,3 +47,5 @@ class Customer
     end
   
   end
+
+  #@@all is the SSOT for Customer 
